@@ -1,6 +1,7 @@
 package exercise.exercise2;
 
 import java.util.ArrayList;
+import java.util.Collection;
 
 /**
  * Created by Radu.Hoaghe on 20.04.2015.
@@ -47,15 +48,66 @@ public class MyList<Integer> extends ArrayList<Integer> {
     // TODO Exercise #2 a) Override add() and addAll() methods so that the list should retain the number of
     // TODO Exercise #2 a) different elements (Hint: check out the methods signatures on the List documentation)
 
+
+    public boolean add(Integer elem){
+        if(this.contains(elem) == false) {
+            differentElements++;
+        }
+        return super.add(elem);
+    }
+
+    public boolean addAll(Collection<? extends Integer> c) {
+        for(Integer i : c) {
+            if(this.contains(i) == false) {
+                differentElements++;
+            }
+        }
+        return super.addAll(c);
+    }
+
+    public void add(int index, Integer elem) {
+        if(this.contains(elem) == false)
+            differentElements++;
+        super.add(index, elem);
+    }
+
+    public boolean addAll(int index, Collection<? extends Integer> c) {
+        for(Integer i : c){
+            if(this.contains(i) == false)
+                differentElements++;
+        }
+        return super.addAll(index, c);
+    }
+
     // TODO Exercise #2 b) Override the remove methods so that the number of different elements is updated when
     // TODO Exercise #2 b) an element is removed
     // TODO Exercise #2 b) hint: you need to update the number of different elements only when
     // TODO Exercise #2 b) the element that needs to be removed is the last element of its kind in the list
 
-    // TODO Exercise #2 c) Override the clear method and reset the number of different elements
+    public Integer remove(int index) {
+        Integer aux = super.remove(index);
+        if(this.contains(aux) == false) {
+            differentElements--;
+        }
+        return aux;
+    }
 
+    public boolean remove(Object obj) {
+        boolean stare = super.remove(obj);
+        if(this.contains(obj) == false) {
+            differentElements--;
+        }
+        return stare;
+    }
+
+    // TODO Exercise #2 c) Override the clear method and reset the number of different elements
+    public void clear() {
+        super.clear();
+        differentElements = 0;
+    }
     // TODO Exercise #2 d) Return the number of different elements that exist into the list
     public int getDifferentElements() {
-        return 0;
+
+        return differentElements;
     }
 }
