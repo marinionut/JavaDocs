@@ -9,49 +9,31 @@ import java.util.List;
 /**
  * Created by Ionutz on 04.05.2015.
  */
-public class DepartamentDao {
+public class DepartmentDao {
     EntityManager entityManager = new EntityManagerImpl();
 
-    /**
-     *
-     * @param department
-     * @return department object
-     */
+
     public Department insertDepartment(Department department) {
         return (Department) entityManager.insert(department);
     }
 
-    /**
-     *
-     * @param department
-     * @return department object
-     */
+
     public Department updateDepartment(Department department) {
         return entityManager.update(department);
     }
 
-    /**
-     *
-     * @param department
-     */
+
     public void deleteDepartment(Department department) {
         entityManager.delete(department);
     }
 
-    /**
-     *
-     * @return a list of departments
-     */
+
     public List<Department> getAllDepartments() {
         return entityManager.findAll(Department.class);
     }
 
-    /**
-     *
-     * @param id
-     * @return department object
-     */
-    public Department getDepartmentById(Long id) {
+
+    public Department getDepartmentById(Object id) {
         return entityManager.findById(Department.class, id);
     }
 }

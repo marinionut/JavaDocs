@@ -14,9 +14,9 @@ public class Jobs {
     @Column(name = "JOB_TITLE")
     private String jobTitle;
     @Column(name = "MIN_SALARY")
-    private Long minSalary;
+    private String minSalary;
     @Column(name = "MAX_SALARY")
-    private Long maxSalary;
+    private String maxSalary;
 
     public String getId() {
         return id;
@@ -34,19 +34,19 @@ public class Jobs {
         this.jobTitle = jobTitle;
     }
 
-    public Long getMinSalary() {
+    public String getMinSalary() {
         return minSalary;
     }
 
-    public void setMinSalary(Long minSalary) {
+    public void setMinSalary(String minSalary) {
         this.minSalary = minSalary;
     }
 
-    public Long getMaxSalary() {
+    public String getMaxSalary() {
         return maxSalary;
     }
 
-    public void setMaxSalary(Long maxSalary) {
+    public void setMaxSalary(String maxSalary) {
         this.maxSalary = maxSalary;
     }
 

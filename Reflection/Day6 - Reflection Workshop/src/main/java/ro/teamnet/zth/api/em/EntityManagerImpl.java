@@ -7,17 +7,62 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
+
 import ro.teamnet.zth.api.annotations.Id;
 import ro.teamnet.zth.api.database.DBManager;
-import ro.teamnet.zth.api.database.DProperties;
+import ro.teamnet.zth.api.database.DBProperties;
+
+import javax.xml.transform.Result;
 
 /**
  * Created by Ionutz on 30.04.2015.
  */
 public  class EntityManagerImpl implements EntityManager {
     @Override
-    public <T> T findById(Class<T> entityClass, Long id) {
+    public <T> T findById(Class<T> entityClass, Object id) {
+        try {
+            Connection conn = DBManager.getConnection();
+            Statement stmt = conn.createStatement();
+
+            String tableName = EntityUtils.getTableName(entityClass);
+            List<ColumnInfo> columns = EntityUtils.getColumns(entityClass);
+            List<Field> fieldsByAnnotations = EntityUtils.getFieldByAnnotations(entityClass, Id.class);
+            Condition cond = new Condition(fieldsByAnnotations.get(0).getAnnotation(Id.class).name(), id);
+            QueryBuilder query = new QueryBuilder();
+            query.setTableName(tableName);
+            query.addQueryColumns(columns);
+            query.setQueryType(QueryType.SELECT);
+            query.addCondition(cond);
+
+            String sqlQuery = query.createQuery();
+            ResultSet rs = stmt.executeQuery(sqlQuery);
+
+            T instance = null;
+
+            if (rs.next()) {
+                instance = entityClass.newInstance();
+                for (ColumnInfo c : columns) {
+                    c.setValue(rs.getObject(c.getDbName()));
+                    Field field = instance.getClass().getDeclaredField(c.getColumnName());
+                    field.setAccessible(true);
+                    field.set(instance, EntityUtils.castFromSqlType(c.getValue(), c.getColumnType()));
+                }
+            }
+            return instance;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return null;
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
+            return null;
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+            return null;
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+            return null;
+        }
+        /*
         try (Connection conn = DBManager.getConnection();
              Statement stmt = conn.createStatement()) {
 
@@ -47,10 +92,52 @@ public  class EntityManagerImpl implements EntityManager {
             ex.printStackTrace();
             return null;
         }
+        */
     }
-
-    @Override
+        @Override
     public <T> List<T> findAll(Class<T> entityClass) {
+            try {
+                Connection conn = DBManager.getConnection();
+                Statement stmt = conn.createStatement();
+
+                List<T> rows = new ArrayList<>();
+                String tableName = EntityUtils.getTableName(entityClass);
+                List<ColumnInfo> columns = EntityUtils.getColumns(entityClass);
+                QueryBuilder query = new QueryBuilder();
+                query.setTableName(tableName);
+                query.addQueryColumns(columns);
+                query.setQueryType(QueryType.SELECT);
+
+                String sqlQuery = query.createQuery();
+                ResultSet rs = stmt.executeQuery(sqlQuery);
+
+                T instance = entityClass.newInstance();
+
+                while (rs.next()) {
+                    for (ColumnInfo c : columns) {
+                        c.setValue(rs.getObject(c.getDbName()));
+                        Field field = instance.getClass().getDeclaredField(c.getColumnName());
+                        field.setAccessible(true);
+                        field.set(instance, EntityUtils.castFromSqlType(c.getValue(), c.getColumnType()));
+                    }
+                    rows.add(instance);
+                }
+                return rows;
+
+            } catch (SQLException e) {
+                e.printStackTrace();
+                return null;
+            } catch (NoSuchFieldException e) {
+                e.printStackTrace();
+                return null;
+            } catch (InstantiationException e) {
+                e.printStackTrace();
+                return null;
+            } catch (IllegalAccessException e) {
+                e.printStackTrace();
+                return null;
+            }
+            /*
         try (Connection conn = DBManager.getConnection();
              Statement stmt = conn.createStatement()){
 
@@ -77,53 +164,42 @@ public  class EntityManagerImpl implements EntityManager {
             e.printStackTrace();
             return null;
         }
+        */
     }
 
     @Override
     public <T> T insert(T entity) {
-        try (Connection conn = DBManager.getConnection();
-             Statement stmt = conn.createStatement()) {
+        try {
+            Connection conn = DBManager.getConnection();
+            Statement stmt = conn.createStatement();
 
-            QueryBuilder query = new QueryBuilder();
-            //get table name
-            String tableName = EntityUtils.getTableName(entity.getClass());
-            //get columns
-            List<ColumnInfo> columns = EntityUtils.getColumns(entity.getClass());
+                QueryBuilder query = new QueryBuilder();
+                String tableName = EntityUtils.getTableName(entity.getClass());
+                List<ColumnInfo> columns = EntityUtils.getColumns(entity.getClass());
 
-            Integer lastId;
-            //set values for columns
-            for(ColumnInfo column : columns) {
-                if(column.isId()) {
-                    if(DProperties.IS_ORACLE) {
-                        //used for Oracle DB
-                        lastId = getSeqNextValue().intValue();
-                        column.setValue(lastId);
+                Integer lastId;
+                for (ColumnInfo c : columns) {
+                    {
+                        Field field = entity.getClass().getDeclaredField(c.getColumnName());
+                        field.setAccessible(true);
+                        Object value = field.get(entity);
+                        c.setValue(EntityUtils.getSqlValue(value));
                     }
-                } else {
-                    Field field = entity.getClass().getDeclaredField(column.getColumnName());
-                    field.setAccessible(true);
-                    Object value = field.get(entity);
-                    column.setValue(EntityUtils.getSqlValue(value));
                 }
-            }
-            //set details in QueryBuilder
-            query.setTableName(tableName).setQueryType(QueryType.INSERT).addQueryColumns(columns);
-            //create sql statement
-            String sql = query.createQuery();
-            //execute sql
-            stmt.executeUpdate(sql);
 
-            if(DProperties.IS_MYSQL) {
-                //get last id (used for MySQL)
-                sql = "select LAST_INSERT_ID()";
-                ResultSet rs = stmt.executeQuery(sql);
+                query.setTableName(tableName).setQueryType(QueryType.INSERT).addQueryColumns(columns);
+
+                String sqlQuery = query.createQuery();
+                stmt.executeUpdate(sqlQuery);
+
+                T instance = null;
+                sqlQuery = "select LAST_INSERT_ID()";
+                ResultSet rs = stmt.executeQuery(sqlQuery);
                 rs.next();
                 lastId = rs.getInt(1);
                 rs.close();
-            }
-
-            return (T) findById(entity.getClass(), lastId.longValue());
-        } catch(SQLException | ClassNotFoundException | NoSuchFieldException | IllegalAccessException e) {
+                return (T) findById(entity.getClass(), lastId.intValue());
+        } catch(SQLException | NoSuchFieldException | IllegalAccessException e) {
             e.printStackTrace();
             return null;
         }
@@ -149,6 +225,7 @@ public  class EntityManagerImpl implements EntityManager {
             query = query.setTableName(tableName).setQueryType(QueryType.UPDATE).addQueryColumns(columns)
                     .addCondition(condition);
             String sql = query.createQuery();
+            System.out.println(sql);
             stmt.executeUpdate(sql);
             return entity;
         } catch(SQLException  | NoSuchFieldException | IllegalAccessException e) {

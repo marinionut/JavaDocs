@@ -10,12 +10,12 @@ import java.lang.Long;
  */
 @Table(name = "departments")
 public class Department {
-    @Id(name = "DEPARTMENT_ID")
-    private Long id;
-    @Column(name = "DEPARTMENT_NAME")
+    @Id(name = "DEPARTAMENT_ID")
+    private Integer id;
+    @Column(name = "DEPARTAMENT_NAME")
     private String departmentName;
     @Column(name = "LOCATION_ID")
-    private Location location;
+    private Integer location;
 
     public String getDepartmentName() {
         return departmentName;
@@ -25,19 +25,19 @@ public class Department {
         this.departmentName = departmentName;
     }
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
-    public Location getLocation() {
+    public Integer getLocation() {
         return location;
     }
 
-    public void setLocation(Location location) {
+    public void setLocation(Integer location) {
         this.location = location;
     }
 

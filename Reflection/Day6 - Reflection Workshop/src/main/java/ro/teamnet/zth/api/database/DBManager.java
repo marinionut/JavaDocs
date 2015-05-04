@@ -1,7 +1,5 @@
 package ro.teamnet.zth.api.database;
 
-import ro.teamnet.zth.api.database.DProperties;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -14,21 +12,21 @@ public class DBManager {
         throw new UnsupportedOperationException();
     }
 
-    final static String CONNECTION_STRING= "jdbc:mysql://" + DProperties.IP + "/" + DProperties.SCHEMA;
+    final static String CONNECTION_STRING= "jdbc:mysql://" + DBProperties.IP + "/" + DBProperties.SCHEMA;
 
     private static void registerDriver() {
         try {
-            Class.forName(DProperties.DRIVER_CLASS);
+            Class.forName(DBProperties.DRIVER_CLASS);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
     }
 
     public static Connection getConnection() {
-        Connection myConnection = null;
         registerDriver();
+        Connection myConnection = null;
         try {
-            myConnection = DriverManager.getConnection(CONNECTION_STRING, DProperties.USER, DProperties.PASS);
+            myConnection = DriverManager.getConnection(CONNECTION_STRING, DBProperties.USER, DBProperties.PASS);
         } catch (SQLException e) {
             e.printStackTrace();
             myConnection = null;

@@ -20,7 +20,7 @@ public class EntityUtilsTest {
     @Test
     public void testGetTableNameMethod() {
         Department department = new Department();
-        String tableName = EntityUtils.getTableName(Department.class);
+        String tableName = EntityUtils.getTableName(department.getClass());
 
         assertEquals("Table name should be departments!", "departments", tableName);
     }
@@ -42,7 +42,8 @@ public class EntityUtilsTest {
         }  catch (NoSuchFieldException e) {
             e.printStackTrace();
         }
-
+        System.out.println(fields.toString());
+        System.out.println(myFields.toString());
         Assert.assertEquals("Incorrect number of retrieved fields!", fields.size(), myFields.size());
     }
 
@@ -61,25 +62,26 @@ public class EntityUtilsTest {
         ColumnInfo c;
         c = new ColumnInfo();
         c.setColumnName("id");
-        c.setColumnType(Long.class);
-        c.setDbName("departament_id");
+        c.setColumnType(Integer.class);
+        c.setDbName("DEPARTMENT_ID");
         c.setIsId(true);
         columns.add(c);
 
         c = new ColumnInfo();
         c.setColumnName("departmentName");
         c.setColumnType(Long.class);
-        c.setDbName("department_name");
+        c.setDbName("DEPARTMENT_NAME");
         c.setIsId(false);
         columns.add(c);
 
         c = new ColumnInfo();
         c.setColumnName("location");
         c.setColumnType(Long.class);
-        c.setDbName("location_id");
+        c.setDbName("LOCATION_ID");
         c.setIsId(false);
         columns.add(c);
-
-        Assert.assertEquals("Incorrect number of retrived columns!", columns.size(), myColumns.size());
+        System.out.println(columns);
+        System.out.println(myColumns);
+        Assert.assertEquals("Incorrect number of retrived columns!", columns.toString(), myColumns.toString());
     }
 }

@@ -11,7 +11,7 @@ public class ColumnInfo {
     private boolean isId;
     private Object value;
 
-    public String toString() {return columnName;}
+    public String toString() {return columnName + " " + dbName + " " + columnType + " " + isId + " " + value ;}
 
     public String getColumnName() {
         return columnName;

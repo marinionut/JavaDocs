@@ -8,24 +8,24 @@ import ro.teamnet.zth.api.annotations.Table;
 /**
  * Created by Ionutz on 29.04.2015.
  */
-@Table(name = "location")
+@Table(name = "locations")
 public class Location {
     @Id(name = "LOCATION_ID")
-    private Long id;
-    @Column(name = "STREET_ADRESS")
+    private Integer id;
+    @Column(name = "STREET_ADDRESS")
     private String streetAddress;
     @Column(name = "POSTAL_CODE")
     private String postalCode;
     @Column(name = "CITY")
     private String city;
-    @Id(name = "STATE_PROVINCE")
+    @Column(name = "STATE_PROVINCE")
     private String stateProvince;
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

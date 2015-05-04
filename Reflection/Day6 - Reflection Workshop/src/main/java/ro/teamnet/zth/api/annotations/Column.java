@@ -11,5 +11,5 @@ import java.lang.annotation.Retention;
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Column {
-    String name() default"";
+    String name() default "";
 }

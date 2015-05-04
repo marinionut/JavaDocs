@@ -1,6 +1,8 @@
 package ro.teamnet.zth.api.em;
 
 import java.util.List;
+
+import org.junit.Assert;
 import ro.teamnet.zth.appl.domain.Department;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
@@ -27,10 +29,10 @@ public class EntityManagerImplTest {
 
     @Test
     public void bTestUpdate() {
-        dep.setDepartmentName("test unitar2");
-        dep = entityManager.update(dep);
-
-        assertEquals(entityManager.findById(Department.class, dep.getId()), dep);
+        Department d = entityManager.findById(Department.class, 30);
+        d.setDepartmentName("departamnet test");
+        entityManager.update(d);
+        assertEquals(entityManager.findById(Department.class, 30).getDepartmentName(), d.getDepartmentName());
     }
 
     @Test
@@ -50,6 +52,14 @@ public class EntityManagerImplTest {
         List<Department> newDeps = entityManager.findAll(Department.class);
 
         assertEquals(oldDeps.size(), newDeps.size() - 1);
+    }
+
+    @Test
+    public void eFindById() {
+        EntityManager myEntityManager = new EntityManagerImpl();
+        Department rezultat = myEntityManager.findById(Department.class, 10);
+
+        Assert.assertNotNull(rezultat);
     }
 
 }

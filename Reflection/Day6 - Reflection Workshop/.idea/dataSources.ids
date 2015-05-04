@@ -43,7 +43,7 @@
     </table>
     <table name="locations" schema="" catalog="zth_12" type="TABLE">
       <column name="LOCATION_ID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
-      <column name="DEPARTAMENT_NAME" sqlType="VARCHAR" precision="40" scale="0" nullable="true" jdbcType="12"/>
+      <column name="STREET_ADDRESS" sqlType="VARCHAR" precision="40" scale="0" nullable="true" jdbcType="12"/>
       <column name="POSTAL_CODE" sqlType="VARCHAR" precision="12" scale="0" nullable="true" jdbcType="12"/>
       <column name="CITY" sqlType="VARCHAR" precision="30" scale="0" nullable="false" jdbcType="12"/>
       <column name="STATE_PROVINCE" sqlType="VARCHAR" precision="25" scale="0" nullable="true" jdbcType="12"/>
