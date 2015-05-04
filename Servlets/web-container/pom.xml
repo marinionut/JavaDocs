@@ -43,7 +43,7 @@
       </dependency>
   </dependencies>
   <build>
-    <finalName>web-container</finalName>
+    <finalName>zerotohero</finalName>
       <plugins>
           <plugin>
               <groupId>org.codehaus.mojo</groupId>

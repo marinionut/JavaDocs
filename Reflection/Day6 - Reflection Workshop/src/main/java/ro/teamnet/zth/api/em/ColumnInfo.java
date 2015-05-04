@@ -1,0 +1,59 @@
+package ro.teamnet.zth.api.em;
+
+/**
+ * Created by Ionutz on 29.04.2015.
+ */
+public class ColumnInfo {
+
+    private String columnName;
+    private Class columnType;
+    private String dbName;
+    private boolean isId;
+    private Object value;
+
+    public String toString() {return columnName;}
+
+    public String getColumnName() {
+        return columnName;
+    }
+
+    public void setColumnName(String columnName) {
+        this.columnName = columnName;
+    }
+
+    public Class getColumnType() {
+        return columnType;
+    }
+
+    public void setColumnType(Class columnType) {
+        this.columnType = columnType;
+    }
+
+    public String getDbName() {
+        return dbName;
+    }
+
+    public void setDbName(String dbName) {
+        this.dbName = dbName;
+    }
+
+    public boolean isId() {
+        return isId;
+    }
+
+    public void setIsId(boolean isId) {
+        this.isId = isId;
+    }
+
+    public Object getValue() {
+        return value;
+    }
+
+    public void setValue(Object value) {
+        this.value = value;
+    }
+
+    public void setId(boolean isId) {
+        this.isId = isId;
+    }
+}
