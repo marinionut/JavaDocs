@@ -21,7 +21,7 @@ public class JobsDaoTest {
 
     @Test
     public void aTestInsertJob() {
-        job.setId("HR - testtt2 ");
+        job.setId("HR - teesttt2 ");
         job.setJobTitle("Junior Developer - test");
         job.setMaxSalary("2500");
         job.setMinSalary("1500");
@@ -51,7 +51,7 @@ public class JobsDaoTest {
     public void dGetAllJobs() {
         List<Jobs> oldJob = jobDao.getAllJobs();
         //add new job
-       job.setId("HR - test 6");
+        job.setId("HR - test 8");
         job.setJobTitle("Junior Developer-test 3");
         job.setMaxSalary("2500");
         job.setMinSalary("1500");

@@ -20,7 +20,6 @@
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
 
-
     <servlet-mapping>
         <servlet-name>ZeroToHero</servlet-name>
         <url-pattern>/zerotohero</url-pattern>

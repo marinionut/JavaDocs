@@ -26,13 +26,13 @@ public class EmployeesDaoTest {
 
     @Test
     public void aTestInsertEmployee() {
-        employee.setId(226);
+        employee.setId(229);
         employee.setFirstName("Test");
         employee.setLastName("Test");
         employee.setEmail("test@mail.com");
         employee.setPhoneNumber("07600000");
         employee.setHireDate(new Date(System.currentTimeMillis()));
-        employee.setJobId("HR - test");
+        employee.setJobId("HR - test2");
         employee.setSalary(new BigDecimal(3000));
         employee.setCommissionPct(new BigDecimal(0));
         employee = employeeDao.insertEmployee(employee);
@@ -62,13 +62,13 @@ public class EmployeesDaoTest {
     public void dGetAllEmployees() {
         List<Employees> oldLoc = employeeDao.getAllEmployees();
         //add new employee
-        employee.setId(235);
+        employee.setId(237);
         employee.setFirstName("Test2");
         employee.setLastName("Test2");
         employee.setEmail("test2@mail.com");
         employee.setPhoneNumber("07600002");
         employee.setHireDate(new Date(System.currentTimeMillis()));
-        employee.setJobId("HR - test2");
+        employee.setJobId("HR - test");
         employee.setSalary(new BigDecimal(3000));
         employee.setCommissionPct(new BigDecimal(0));
         employee = employeeDao.insertEmployee(employee);

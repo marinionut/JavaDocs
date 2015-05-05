@@ -2,67 +2,81 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="564e6b42-a6ec-4e40-9f5d-d424626f53f2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ro/teamnet/zth/appl/DepartmentDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/appl/dao/EmployeesDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ro/teamnet/zth/appl/EmployeesDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/appl/dao/JobsDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ro/teamnet/zth/appl/JobsDaoTest.java" />
-      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Reflection\Day6 - Reflection Workshop\target\classes\ro\teamnet\zth\api\database\DProperties.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Reflection\Day6 - Reflection Workshop\target\classes\ro\teamnet\zth\appl\dao\DepartamentDao.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\web-container\target\classes\ro\teamnet\z2h\web\HelloWorldServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\web-container\target\classes\ro\teamnet\z2h\web\ZeroToHeroServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\web-container\target\maven-archiver\pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\web-container\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\web-container\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\web-container\target\zerotohero.war" afterPath="" />
-      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\web-container\target\zerotohero\WEB-INF\classes\ro\teamnet\z2h\web\HelloWorldServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\web-container\target\zerotohero\WEB-INF\classes\ro\teamnet\z2h\web\ZeroToHeroServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\web-container\target\zerotohero\WEB-INF\lib\jackson-core-asl-1.9.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\web-container\target\zerotohero\WEB-INF\lib\jackson-mapper-asl-1.9.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\web-container\target\zerotohero\WEB-INF\lib\ojdbc6-11.2.0.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\web-container\target\zerotohero\WEB-INF\web.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\web-container\target\zerotohero\index.jsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ro/teamnet/zth/api/em/ColumnInfo.class" afterPath="$PROJECT_DIR$/target/classes/ro/teamnet/zth/api/em/ColumnInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ro/teamnet/zth/api/database/DBManager.class" afterPath="$PROJECT_DIR$/target/classes/ro/teamnet/zth/api/database/DBManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ro/teamnet/zth/appl/domain/Department.class" afterPath="$PROJECT_DIR$/target/classes/ro/teamnet/zth/appl/domain/Department.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ro/teamnet/zth/appl/domain/Employees.class" afterPath="$PROJECT_DIR$/target/classes/ro/teamnet/zth/appl/domain/Employees.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ro/teamnet/zth/api/em/EntityManager.class" afterPath="$PROJECT_DIR$/target/classes/ro/teamnet/zth/api/em/EntityManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ro/teamnet/zth/api/em/EntityManagerImpl.class" afterPath="$PROJECT_DIR$/target/classes/ro/teamnet/zth/api/em/EntityManagerImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/ro/teamnet/zth/api/em/EntityManagerImplTest.class" afterPath="$PROJECT_DIR$/target/test-classes/ro/teamnet/zth/api/em/EntityManagerImplTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ro/teamnet/zth/api/em/EntityUtils.class" afterPath="$PROJECT_DIR$/target/classes/ro/teamnet/zth/api/em/EntityUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/ro/teamnet/zth/api/em/EntityUtilsTest.class" afterPath="$PROJECT_DIR$/target/test-classes/ro/teamnet/zth/api/em/EntityUtilsTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ro/teamnet/zth/api/annotations/Id.class" afterPath="$PROJECT_DIR$/target/classes/ro/teamnet/zth/api/annotations/Id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ro/teamnet/zth/appl/domain/Jobs.class" afterPath="$PROJECT_DIR$/target/classes/ro/teamnet/zth/appl/domain/Jobs.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ro/teamnet/zth/appl/domain/Location.class" afterPath="$PROJECT_DIR$/target/classes/ro/teamnet/zth/appl/domain/Location.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ro/teamnet/zth/appl/dao/LocationDao.class" afterPath="$PROJECT_DIR$/target/classes/ro/teamnet/zth/appl/dao/LocationDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ro/teamnet/zth/api/em/QueryBuilder.class" afterPath="$PROJECT_DIR$/target/classes/ro/teamnet/zth/api/em/QueryBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/annotations/Column.java" afterPath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/annotations/Column.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/em/ColumnInfo.java" afterPath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/em/ColumnInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/database/DBManager.java" afterPath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/database/DBManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/appl/domain/Department.java" afterPath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/appl/domain/Department.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/appl/domain/Employees.java" afterPath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/appl/domain/Employees.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/em/EntityManager.java" afterPath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/em/EntityManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/em/EntityManagerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/em/EntityManagerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ro/teamnet/zth/api/em/EntityManagerImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/ro/teamnet/zth/api/em/EntityManagerImplTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/em/EntityUtils.java" afterPath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/em/EntityUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ro/teamnet/zth/api/em/EntityUtilsTest.java" afterPath="$PROJECT_DIR$/src/test/java/ro/teamnet/zth/api/em/EntityUtilsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/annotations/Id.java" afterPath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/annotations/Id.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/appl/domain/Jobs.java" afterPath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/appl/domain/Jobs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/appl/domain/Location.java" afterPath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/appl/domain/Location.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/appl/dao/LocationDao.java" afterPath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/appl/dao/LocationDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ro/teamnet/zth/appl/LocationDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/ro/teamnet/zth/appl/LocationDaoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/em/QueryBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/em/QueryBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/annotations/Table.java" afterPath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/annotations/Table.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../My Workshops/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../My Workshops/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Collections/Workshop/Day five/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Collections/Workshop/Day five/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../My Workshops/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../My Workshops/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/HttpSession.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/src/main/java/ro/teamnet/zth/api/annotations/Column.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/jsp-app/src/main/java/ro/teamnet/zth/api/annotations/Column.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/src/main/java/ro/teamnet/zth/api/em/ColumnInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/jsp-app/src/main/java/ro/teamnet/zth/api/em/ColumnInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/src/main/java/ro/teamnet/zth/api/em/Condition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/jsp-app/src/main/java/ro/teamnet/zth/api/em/Condition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/src/main/java/ro/teamnet/zth/api/database/DBManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/jsp-app/src/main/java/ro/teamnet/zth/api/database/DBManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/src/main/java/ro/teamnet/zth/api/database/DBProperties.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/jsp-app/src/main/java/ro/teamnet/zth/api/database/DBProperties.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/src/main/java/ro/teamnet/zth/appl/domain/Department.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/jsp-app/src/main/java/ro/teamnet/zth/appl/domain/Department.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/src/main/java/ro/teamnet/zth/appl/dao/DepartmentDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/jsp-app/src/main/java/ro/teamnet/zth/appl/dao/DepartmentDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/src/main/java/ro/teamnet/zth/api/em/EntityManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/jsp-app/src/main/java/ro/teamnet/zth/api/em/EntityManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/src/main/java/ro/teamnet/zth/api/em/EntityManagerImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/jsp-app/src/main/java/ro/teamnet/zth/api/em/EntityManagerImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/src/main/java/ro/teamnet/zth/api/em/EntityUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/jsp-app/src/main/java/ro/teamnet/zth/api/em/EntityUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/jsp-app/src/main/java/ro/teamnet/zth/web/HelloWorldServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/src/main/java/ro/teamnet/zth/web/HttpSessionZTH.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/src/main/java/ro/teamnet/zth/api/annotations/Id.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/jsp-app/src/main/java/ro/teamnet/zth/api/annotations/Id.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/src/main/java/ro/teamnet/zth/appl/domain/Location.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/jsp-app/src/main/java/ro/teamnet/zth/appl/domain/Location.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/src/main/java/ro/teamnet/zth/appl/dao/LocationDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/jsp-app/src/main/java/ro/teamnet/zth/appl/dao/LocationDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/src/main/java/ro/teamnet/zth/api/em/QueryBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/jsp-app/src/main/java/ro/teamnet/zth/api/em/QueryBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/src/main/java/ro/teamnet/zth/api/em/QueryType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/jsp-app/src/main/java/ro/teamnet/zth/api/em/QueryType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/src/main/java/ro/teamnet/zth/api/em/RelationType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/jsp-app/src/main/java/ro/teamnet/zth/api/em/RelationType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/src/main/java/ro/teamnet/zth/api/annotations/Table.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/jsp-app/src/main/java/ro/teamnet/zth/api/annotations/Table.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/jsp-app/src/main/java/ro/teamnet/zth/web/ZeroToHeroServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/src/main/webapp/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/src/main/webapp/locationList.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/jsp-app/src/main/webapp/locationList.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/jsp-app/src/main/webapp/locationView.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/src/main/webapp/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/src/main/webapp/loginFail.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/src/main/webapp/WEB-INF/web.xml" />
+      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\jsp-app\src\main\java\ro\teamnet\z2h\App.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\jsp-app\src\main\java\ro\teamnet\z2h\dao\DepartmentDao.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\jsp-app\src\main\java\ro\teamnet\z2h\dao\EmployeeDao.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\jsp-app\src\main\java\ro\teamnet\z2h\dao\EmployeeViewDao.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\jsp-app\src\main\java\ro\teamnet\z2h\dao\JobDao.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\jsp-app\src\main\java\ro\teamnet\z2h\domain\Department.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\jsp-app\src\main\java\ro\teamnet\z2h\domain\Employee.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\jsp-app\src\main\java\ro\teamnet\z2h\domain\Job.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\jsp-app\src\main\java\ro\teamnet\z2h\utils\DatabaseManager.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\jsp-app\src\main\java\ro\teamnet\z2h\utils\ResultSetToPojoConverter.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\jsp-app\src\main\java\ro\teamnet\z2h\views\EmployeeView.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\jsp-app\src\main\webapp\employeeList.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Servlets/JSPWorkshop.docx" afterPath="$PROJECT_DIR$/../../Servlets/JSPWorkshop.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/ro/teamnet/zth/appl/JobsDaoTest.class" afterPath="$PROJECT_DIR$/target/test-classes/ro/teamnet/zth/appl/JobsDaoTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Servlets/Server configuration.docx" afterPath="$PROJECT_DIR$/../../Servlets/Server configuration.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Servlets/ServletFilters.docx" afterPath="$PROJECT_DIR$/../../Servlets/ServletFilters.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Servlets/Web Presentation-Part2.pptx" afterPath="$PROJECT_DIR$/../../Servlets/Web Presentation-Part2.pptx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ro/teamnet/zth/appl/EmployeesDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/ro/teamnet/zth/appl/EmployeesDaoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ro/teamnet/zth/appl/JobsDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/ro/teamnet/zth/appl/JobsDaoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Servlets/web-container/src/main/java/ro/teamnet/z2h/web/ZeroToHeroServlet.java" afterPath="$PROJECT_DIR$/../../Servlets/web-container/src/main/java/ro/teamnet/z2h/web/ZeroToHeroServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Servlets/web-container/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/../../Servlets/web-container/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Servlets/jsp-app/pom.xml" afterPath="$PROJECT_DIR$/../../Servlets/jsp-app/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Servlets/jsp-app/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../../Servlets/jsp-app/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Servlets/web-container/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../../Servlets/web-container/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DemoReflection/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../DemoReflection/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\Zero to Hero\JavaDocs\Reflection\Day6 - Reflection Workshop\src\main\java\ro\teamnet\zth\api\database\DProperties.java" afterPath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/database/DBProperties.java" />
-      <change type="MOVED" beforePath="D:\Zero to Hero\JavaDocs\Reflection\Day6 - Reflection Workshop\src\main\java\ro\teamnet\zth\appl\dao\DepartamentDao.java" afterPath="$PROJECT_DIR$/src/main/java/ro/teamnet/zth/appl/dao/DepartmentDao.java" />
+      <change type="MOVED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\jsp-app\src\main\java\ro\teamnet\z2h\web\HelloWorldServlet.java" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/src/main/java/ro/teamnet/zth/web/HelloWorldServlet.java" />
+      <change type="MOVED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\jsp-app\src\main\java\ro\teamnet\z2h\web\ZeroToHeroServlet.java" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/src/main/java/ro/teamnet/zth/web/ZeroToHeroServlet.java" />
+      <change type="MOVED" beforePath="D:\Zero to Hero\JavaDocs\Servlets\jsp-app\src\main\webapp\employeeView.jsp" afterPath="$PROJECT_DIR$/../../Servlets/httpsession-app/src/main/webapp/locationView.jsp" />
     </list>
     <ignored path="Day6 - Reflection Workshop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -177,21 +191,8 @@
       <file leaf-file-name="QueryBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/em/QueryBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="23.23077">
-              <caret line="106" column="50" selection-start-line="106" selection-start-column="50" selection-end-line="106" selection-end-column="50" />
-              <folding>
-                <element signature="e#266#278#0" expanded="true" />
-                <element signature="e#369#380#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EntityUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/em/EntityUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -200,8 +201,8 @@
       <file leaf-file-name="EmployeesDaoTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ro/teamnet/zth/appl/EmployeesDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.6621253">
-              <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.5246753">
+              <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -211,15 +212,30 @@
       </file>
       <file leaf-file-name="zth_12.employees" pinned="false" current-in-tab="false">
         <entry file="dbDummy://dbtable:/d9c66804/12d94732-8cd5-483a-9819-5e986963a1af/zth_12..employees">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
           <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zth_12.jobs" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/d9c66804/12d94732-8cd5-483a-9819-5e986963a1af/zth_12..jobs">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -313,7 +329,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ro/teamnet/zth/appl/JobsDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+              <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -416,7 +432,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -442,7 +458,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -733,6 +748,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -759,8 +775,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeesDaoTest.dGetAllEmployees">
-    <configuration default="false" name="DepartmentDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EmployeesDaoTest.aTestInsertEmployee">
+    <configuration default="false" name="JobsDaoTest.dGetAllJobs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="ro.teamnet.zth.appl.*" />
@@ -771,34 +787,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ro.teamnet.zth.appl" />
-      <option name="MAIN_CLASS_NAME" value="ro.teamnet.zth.appl.DepartmentDaoTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="EmployeesDaoTest.dGetAllEmployees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ro.teamnet.zth.appl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Day6 - Reflection Workshop" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ro.teamnet.zth.appl" />
-      <option name="MAIN_CLASS_NAME" value="ro.teamnet.zth.appl.EmployeesDaoTest" />
-      <option name="METHOD_NAME" value="dGetAllEmployees" />
+      <option name="MAIN_CLASS_NAME" value="ro.teamnet.zth.appl.JobsDaoTest" />
+      <option name="METHOD_NAME" value="dGetAllJobs" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -812,7 +802,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="EmployeesDaoTest.cTestDeleteEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="EmployeesDaoTest.aTestInsertEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="ro.teamnet.zth.appl.*" />
@@ -824,7 +814,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ro.teamnet.zth.appl" />
       <option name="MAIN_CLASS_NAME" value="ro.teamnet.zth.appl.EmployeesDaoTest" />
-      <option name="METHOD_NAME" value="cTestDeleteEmployee" />
+      <option name="METHOD_NAME" value="aTestInsertEmployee" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -864,7 +854,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="EmployeesDaoTest.aTestInsertEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="EmployeesDaoTest.cTestDeleteEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="ro.teamnet.zth.appl.*" />
@@ -876,7 +866,33 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ro.teamnet.zth.appl" />
       <option name="MAIN_CLASS_NAME" value="ro.teamnet.zth.appl.EmployeesDaoTest" />
-      <option name="METHOD_NAME" value="aTestInsertEmployee" />
+      <option name="METHOD_NAME" value="cTestDeleteEmployee" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="EmployeesDaoTest.dGetAllEmployees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ro.teamnet.zth.appl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Day6 - Reflection Workshop" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ro.teamnet.zth.appl" />
+      <option name="MAIN_CLASS_NAME" value="ro.teamnet.zth.appl.EmployeesDaoTest" />
+      <option name="METHOD_NAME" value="dGetAllEmployees" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1170,19 +1186,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.EntityUtilsTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DepartmentDaoTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.EmployeesDaoTest.dGetAllEmployees" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.EmployeesDaoTest.cTestDeleteEmployee" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.EmployeesDaoTest.bTestUpdateEmployee" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.EmployeesDaoTest.aTestInsertEmployee" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.JobsDaoTest.dGetAllJobs" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.EmployeesDaoTest.aTestInsertEmployee" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.EmployeesDaoTest.bTestUpdateEmployee" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.EmployeesDaoTest.cTestDeleteEmployee" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.EmployeesDaoTest.dGetAllEmployees" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.EmployeesDaoTest.dGetAllEmployees" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.EmployeesDaoTest.aTestInsertEmployee" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.EmployeesDaoTest.bTestUpdateEmployee" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.EmployeesDaoTest.cTestDeleteEmployee" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DepartmentDaoTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.EmployeesDaoTest.aTestInsertEmployee" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.EmployeesDaoTest.bTestUpdateEmployee" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.EmployeesDaoTest.dGetAllEmployees" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.JobsDaoTest.dGetAllJobs" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.EmployeesDaoTest.cTestDeleteEmployee" />
       </list>
     </recent_temporary>
   </component>
@@ -1205,11 +1221,13 @@
       <workItem from="1430687316165" duration="5099000" />
       <workItem from="1430724401018" duration="1950000" />
       <workItem from="1430752006010" duration="27701000" />
+      <workItem from="1430824301176" duration="243000" />
+      <workItem from="1430824675851" duration="1311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75153000" />
+    <option name="totallyTimeSpent" value="76707000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1221,25 +1239,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.49697885" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25980392" sideWeight="0.40785497" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="RemoteSynchronizer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="RemoteSynchronizer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42810458" sideWeight="0.14425983" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35784313" sideWeight="0.8557402" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.8557402" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31862745" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23338369" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20543806" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.49697885" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31439394" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2060606" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1248,8 +1264,10 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31862745" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.49697885" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1286,7 +1304,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1294,10 +1311,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1430758495859" expanded="true" signature="-1:-1" placeholder="SELECT 1 FRO..dual..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1305,7 +1318,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1341,7 +1353,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1357,7 +1368,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1365,10 +1375,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1430758495859" expanded="true" signature="-1:-1" placeholder="SELECT 1 FRO..dual..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1376,7 +1382,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1384,7 +1389,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1400,7 +1404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1408,10 +1411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="72" selection-start-line="38" selection-start-column="72" selection-end-line="38" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1430758495859" expanded="true" signature="-1:-1" placeholder="SELECT 1 FRO..dual..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1419,7 +1418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35568514">
           <caret line="237" column="0" selection-start-line="237" selection-start-column="0" selection-end-line="237" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1427,7 +1425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1435,7 +1432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.86754966">
           <caret line="958" column="25" selection-start-line="958" selection-start-column="25" selection-end-line="958" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1443,7 +1439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8055556">
           <caret line="763" column="0" selection-start-line="763" selection-start-column="0" selection-end-line="763" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1451,10 +1446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#391#392#0" expanded="false" />
-            <element signature="e#424#425#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1462,7 +1453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1470,7 +1460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1478,7 +1467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1486,20 +1474,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="117.84">
           <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/d9c66804/12d94732-8cd5-483a-9819-5e986963a1af/zth_12..locations">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1507,10 +1493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
-          <folding>
-            <element signature="e#702#703#0" expanded="false" />
-            <element signature="e#762#763#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1518,7 +1500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1526,7 +1507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="110" selection-start-line="31" selection-start-column="8" selection-end-line="34" selection-end-column="110" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1534,9 +1514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1544,7 +1521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1552,7 +1528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1560,10 +1535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
-          <folding>
-            <element signature="e#880#881#0" expanded="false" />
-            <element signature="e#922#923#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1571,7 +1542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1579,7 +1549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1587,20 +1556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/d9c66804/12d94732-8cd5-483a-9819-5e986963a1af/zth_12..jobs">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1608,20 +1563,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/d9c66804/12d94732-8cd5-483a-9819-5e986963a1af/zth_12..departments">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1629,7 +1582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.1333333">
           <caret line="2" column="118" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="118" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1687,33 +1639,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/d9c66804/12d94732-8cd5-483a-9819-5e986963a1af/zth_12..employees">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ro/teamnet/zth/appl/LocationDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ro/teamnet/zth/appl/JobsDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1755,19 +1684,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/em/QueryBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="23.23077">
-          <caret line="106" column="50" selection-start-line="106" selection-start-column="50" selection-end-line="106" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ro/teamnet/zth/appl/JobsDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
           <folding>
-            <element signature="e#266#278#0" expanded="true" />
-            <element signature="e#369#380#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/d9c66804/12d94732-8cd5-483a-9819-5e986963a1af/zth_12..jobs">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/d9c66804/12d94732-8cd5-483a-9819-5e986963a1af/zth_12..employees">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ro/teamnet/zth/appl/EmployeesDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.6621253">
-          <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.5246753">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
